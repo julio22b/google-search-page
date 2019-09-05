@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+
+/*nav bar*/
+
+
+#g-logo{
+    width: 9%;
+    margin: 0 3%;
+    position: relative;
+    top: 25px;
+}
+
+nav .top-row{
+    margin-top: -20px;
+}
+#search-bar{
+    width: 550px;
+    border-radius: 25px;
+    height: 45px;
+    border: 0.5px solid rgb(190, 190, 190);
+    background-color: white;
+    margin-bottom: 25px;
+    font-size: 17px;
+    color: black;
+    padding: 20px;
+   
+}
+
+#search-bar:hover{
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30);
+}
+
+.google-apps{
+    margin-left: 38%;
+    margin-right: 2%;
+}
+#google-apps{
+    width: 17px;
+    height: 17px;
+}
+
+#magnifier{
+    z-index: 2;
+    position: relative;
+    right: 50px;
+    top: 10px;
+}
+#sign-in{
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+nav .top-row{
+    margin-left: 15%;
+}
+nav .bot-row{
+    border-bottom: 0.5px solid rgb(218, 218, 218);
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav .bot-row #seven{
+    margin-left: 60px;
+}
+
+nav .bot-row li{
+    color: rgb(105, 105, 105);
+    padding: 0 10px;
+    padding-bottom: 15px;
+    font-size: 13px;
+}
+
+nav .bot-row a{
+    color: rgb(105, 105, 105);
+}
+nav .bot-row a:hover{
+    color: rgb(41, 41, 250);
+}
+nav .bot-row{
+    padding-left: 15%;
+
+}
+
+nav .bot-row #all{
+    border-bottom: 4px solid rgb(26, 115, 232);
+    width: 50px;
+    text-align: center;
+    color: rgb(41, 41, 250);
+}
+/*nav bar*/
+
+/*build this webpage*/
+
+h5{
+    color: rgb(119, 119, 119);
+    padding-left: 16%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.how-to{
+    border: 0.5px solid rgb(214, 214, 214);
+    padding: 15px 10px 10px 30px;
+    margin-left: 13%;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.how-to h2{
+    font-weight: normal;
+    font-size: 20px;
+}
+.how-to h2, .how-to h4{
+    padding: 10px 0px;
+}
+
+.how-to ol li{
+    padding: 5px 0;
+}
+
+.how-to ol #may{
+    list-style-type: none;
+    font-size: 12px;
+    color: rgb(119, 119, 119);
+    padding: 8px 0;
+}
+
+.how-to div a h2{
+    padding-bottom: 0;
+}
+
+.how-to div a h2:hover, .how-to div a h2:hover, 
+.snippets-feedback a:hover, #feedback a:hover,
+.related-search-2 .view3:hover, .left-list li a:hover,
+.right-list li a:hover, .numbers li a:hover, .how-to p a:hover,
+.search-result a span:hover, .grid a .link:hover{
+    text-decoration: underline;
+}
+
+.how-to div a h4{
+    padding: 0;
+    color: #006621;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+p{
+    margin-top: 15px;
+}
+
+.snippets-feedback a, .snippets-feedback{ 
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    text-align: right;
+}
+
+
+.snippets-feedback{
+    width: 40%;
+    margin-left: 16%;
+}
+
+.snippets-feedback #about{
+    margin-right: 10%;
+}
+
+/*search result and people also ask*/
+
+.search-result{
+    margin-left: 15%;
+    padding: 20px 0;
+    width: 45%;
+}
+.search-result h4{ 
+    color: #006621;
+    padding-top: 4px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.search-result a{
+    font-size: 20px;
+    font-weight: normal;
+    color: #1a0dab;
+}
+
+.search-result .date{
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.search-result p{
+    margin-top: 7px;
+    line-height: 1.5;
+    color: #545454;
+    
+}
+
+.table{
+    border: 0.5px solid rgb(223, 225, 229);
+    border-radius: 10px;
+    margin-left: 13%;
+    border-spacing: 0;
+    width: 45.5%;
+}
+
+.table th, .table td{
+    border-bottom: 0.5px solid rgb(223, 225, 229);
+    padding: 13px;
+   
+}
+
+.table a{
+    color: rgb(31, 30, 30);
+    display: block;
+}
+
+.table th{
+    text-align: left;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.table tr td .dropdown{
+    float: right;
+}
+
+#feedback a{
+    margin-left: 54%;
+    color: rgb(119, 119, 119);
+    font-size: 12px;   
+}
+#feedback{
+    margin-top: 5px;
+}
+/* video grid*/
+
+.vids{
+    margin-left: 15%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+.grid{
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    width: 30%;
+    grid-column-gap: 3%;
+    margin-left: 13%;
+    height: 270px;
+}
+.grid span{
+    border: 0.5px solid rgb(230, 230, 230);
+    border-radius: 10px;
+    
+}
+.grid .link{
+    padding: 15px;
+    margin-right: 20px;
+}
+.grid p{
+    color: rgb(119, 119, 119);
+    padding: 0 15px;
+    font-size: 14px;
+}
+.grid .gridate{
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    font-size: 12px;
+    margin-top: 5px;
+    padding-bottom: 12px;
+}
+
+.grid #fix{
+    margin-top: 33px;
+}
+
+.grid #website{
+    color: rgb(0, 102, 33);
+    font-size: 12px;
+    border: none;
+}
+
+/* related search 1*/
+.search-result#first{
+    margin-top: 30px;
+}
+
+.related-search-1 div, .related-search-2 div{
+    color: rgb(119, 119, 119);
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.related-search-1 h3, .related-search-2 h3{
+    font-weight: normal;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+
+.related-search-1, .related-search-2{
+    border: 0.5px solid rgb(190, 190, 190);
+    border-radius: 15px;
+    margin-left: 12%;
+    padding-left: 20px;
+    width: 48%;
+    margin-bottom: 30px;
+
+}
+.related-search-1 a, .related-search-2 a{
+    
+    padding: 20px 7px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.related-search-2 a figcaption{
+    width: 72px;
+}
+
+
+.related-search-2 .view3{
+    float: right;
+    padding: 0;
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+    padding-right: 20px;
+}
+
+
+/*related searches lists*/
+
+.left-list, .right-list{
+    display: inline-block;
+}
+
+.left-list{
+    margin-left: 14%;
+    margin-right: 30px;
+}
+
+.searchsub{
+    margin-left: 14%;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.left-list li a, .right-list li a{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.googlelong{
+    margin-left: 21%;
+    padding-top: 22px;
+}
+
+.googlelong #arrow{
+    padding-bottom: 11px;
+}
+
+.numbers{
+    margin-left: 24%;
+    margin-bottom: 20px;
+}
+
+.numbers li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 6.5px;
+}
+
+.numbers #lastchild{
+    margin-left: 35px;
+}
+
+footer{
+    background-color: rgb(241, 241, 241);
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+footer .top-foot{
+    padding-left: 14%;
+    border: 0.3px solid rgb(216, 216, 216);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px; 
+}
+
+footer .top-foot #country{
+    border-right: 0.5px solid rgb(216, 216, 216);
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+footer .top-foot .location strong{
+    color: rgb(59, 59, 59);
+}
+
+footer .top-foot .location a{
+    color: rgb(119, 119, 119);
+}
+
+footer .top-foot .location a:hover, .footerlist li a:hover{
+    color: rgb(66, 66, 66);
+}
+
+.footerlist{
+    padding-left: 13.5%;
+}
+.footerlist li{
+    display: inline-block;
+    padding: 13px;
+    font-size: 12.5px;
+}
+
+.footerlist li a{
+    color: rgb(119, 119, 119);
+}
+
